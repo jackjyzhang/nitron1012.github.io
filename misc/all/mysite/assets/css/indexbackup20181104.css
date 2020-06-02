@@ -1,0 +1,202 @@
+body{
+      margin: 0;
+      height: auto;
+}
+.libutton{
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  padding: 0;
+  font-size: 15px;
+  background-color:#333333;
+  border: none;
+  color:white;
+  height: 60px;
+  width: 42px;
+}
+.libutton:hover{
+  background-color:white;
+  color:#333333;
+}
+.libutton:active{
+  background-color:#eeeeee;
+  color:#333333;
+}
+.topbar{
+  z-index: 2;
+  position: fixed;
+  font-family: 'Oswald', sans-serif;
+  height: 60px;
+  width: 100%;
+  background-color:#333333;
+  opacity: 0.8;
+}
+.top_logo{
+  margin: 0;
+  padding: 15px 15px 15px 15px;;
+  float:left;
+  width:130px;
+  color: #ffffff;
+  opacity: 0.95;
+}
+.top_menu{
+  float:right;
+  width:250px;
+  color: #ffffff;
+  opacity: 0.95;
+}
+.top_logo>h3{
+  margin:0 0 0 10px;
+  padding:0;
+  float:left;
+}
+.top_logo>img{
+  width:30px;
+  margin:0;
+  padding:0;
+  float:left;
+}
+.top_menu>ol{
+  float: right;
+  margin: 0;
+}
+.top_menu>ol>li{
+  display: inline;
+  margin: 0 15px 0 0;
+}
+.content{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  height: 1450px;
+  width: 100%;
+  background-image: url('http://wallpapercave.com/wp/6DdpvwC.jpg')
+}
+div#loginbg{
+    opacity:0.1;
+}
+.login{
+  color:white;
+  width: 35%;
+  height: 60vh;
+  float: right;
+  margin: 60px 35px 0 0;
+  background-color: rgba(54, 54, 54, 0.6);
+}
+.loginheading>h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 5vh;
+
+}
+.loginemail{
+  margin: 0 0 10px 0;
+  width: 80%;
+  height: 6vh;
+}
+.loginpassword{
+  margin: 10px 0 20px 0;
+  width: 80%;
+  height: 6vh;
+}
+.Username>p{
+  background-color: #eeeeee;
+  width: 60%;
+  font-size: 3vh;
+  font-family: 'Titillium Web', sans-serif;
+}
+.Password>p{
+  background-color: #eeeeee;
+  width: 60%;
+  font-size: 3vh;
+  font-family: 'Titillium Web', sans-serif;
+}
+.facebook{
+  font-family: 'Oswald', sans-serif;
+}
+.facebook>h3{
+  color: white;
+  background-color: #4e91fc;
+  width: 60%;
+}
+.copyright{
+  margin: 10px 0 0 0;
+  bottom: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2vh;
+}
+@media screen and (max-width:506px){
+  .login{
+    width:70%;
+    position:absolute;
+    right:7.5%;
+  }
+}
+@media screen and (max-width:409px){
+  .topbar{
+    height:120px;
+  }
+  .topbar{
+    font-size: 50%;
+  }
+}
+@media screen and (max-width:414px){
+  .toplogo>h3{
+    font-size: 50%;
+  }
+}
+@media screen and (max-width:798px){
+  .content{
+    height:2000px;
+  }
+}
+@media screen and (max-width:798px){
+  .content{
+    height:2500px;
+  }
+}
+.whitebackground{
+  opacity: 0.1;
+  width: 90%;
+  background-color: white;
+  height: 20/(1vw);
+  z-index: 0;
+  position: absolute;
+  right: 5%;
+  top: 80vh;
+}
+.loginbutton{
+  font-size: 20px;
+  background-color: #111111;
+  border:none;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.loginwithfacebook{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  background-color: #4e91f2;
+  border:none;
+  color: white;
+  border-radius: 3px;
+  padding: 4px 5px 4px 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.section1>h2{
+  font-family: 'Oswald', sans-serif;
+}
+.whitebackground>p{
+  font-family: 'Titillium Web', sans-serif;
+  width: 90%;
+  margin-left: 5%;
+}
+.section1img{
+
+  width:35%;
+  float: right;
+}
+.section1img>img{
+  float: left;
+  width: 80%;
+}
